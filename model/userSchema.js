@@ -9,6 +9,7 @@ const userSchema = new Schema({
     gender: { type: String },
     address: { type: String },
     phone: { type: Number },
+    catigory: { type: String },
 })
 const User = model("users", userSchema)
 module.exports = User;
